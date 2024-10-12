@@ -45,17 +45,18 @@ http://127.0.0.1:5000
 Enter a city or keyword in the form and wait for a screenshot of the location on Google Earth to be captured.
 
 Project Structure
-scss
 
-/GoogleEarth-scraper/
-│
-├── static/ (Folder for static images, such as screenshots)
-│
-├── templates/ (Folder for HTML templates)
-│   └── index.html (Main HTML page for the user interface)
-│
-├── GEarth.py (Main code handling Flask and Selenium)
-│
-├── requirements.txt (File listing the Python dependencies)
+
+static/: This folder holds static files, such as images. In this project, it is used to store screenshots.
+
+Example: screenshot.png
+templates/: This folder contains the HTML templates for rendering the web interface in Flask.
+
+Example: index.html (Main HTML page for the user interface)
+Root Folder (/GoogleEarth-scraper/):
+
+GEarth.py: The main Python file that handles Flask and Selenium for the application.
+requirements.txt: The file that lists the Python dependencies required to run the project.
+
 How to Contribute
 Feel free to modify the code, improve it, or add new features. If you think your improvement could be useful to others, you can create a pull request to this repository.
