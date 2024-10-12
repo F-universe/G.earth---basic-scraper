@@ -23,7 +23,7 @@ def get_screenshot():
     logging.info(f"Ricerca della posizione: {location}")
     
     # Crea l'URL di Google Earth con la parola chiave dal form
-    search_url = f"https://earth.google.com/web/search/{location}/"
+    search_url = f"https://earth.google.com/web/search/casciano/{location}"
     
     logging.info(f"Google Earth URL generato: {search_url}")
     
